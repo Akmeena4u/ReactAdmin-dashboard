@@ -29,6 +29,8 @@ const DataTable = (props: Props) => {
   // //   }
   // // });
 
+ 
+// @ts-ignore: Suppress TypeScript error for unused 'id' parameter
   const handleDelete = (id: number) => {
     //delete the item
     // mutation.mutate(id)
